@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="gallery-page text-center rounded">
+    <h2>{{ subtitle }}</h2>
+    <p>{{ text }}</p>
+    <p>Welcome to my gallery, {{ username }}!</p>
+
+  <div class= "row justify-content-center">
+    <div class="col-md-4 mb-4">
+      <div class="polaroid">
+        <img src="/static/images/baby_dar.jpg" class="img-fluid rounded">
+        <div class="caption">Me as a baby</div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="polaroid">
+        <img src="/static/images/tower_at_nite.jpg" class="img-fluid rounded">
+        <div class="caption">The beautiful UT tower at night</div>
+      </div>
+    </div>
+  </div>
+
+  <div class= "row justify-content-center">
+    <div class="col-md-4 mb-4">
+      <div class="polaroid">
+        <img src="/static/images/couple_tower.jpg" class="img-fluid rounded">
+        <div class="caption">Me and my boyfriend in front of the tower! (#honors day)</div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="polaroid">
+        <img src="/static/images/cousins.jpg" class="img-fluid rounded">
+        <div class="caption">When my sister and cousin visted me in Austin</div>
+      </div>
+    </div>
+  </div>
+  
+    <div class= "row justify-content-center">
+    <div class="col-md-4 mb-4">
+      <div class="polaroid">
+        <img src="/static/images/me_and_rafa.JPG" class="img-fluid rounded">
+        <div class="caption">My amazing little brother wearing burnt orange</div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="polaroid">
+        <img src="/static/images/me_and_kawen.jpg" class="img-fluid rounded">
+        <div class="caption">Me + Karen (sister) at a party <3</div>
+      </div>
+    </div>
+  </div>
+
+  <div class= "row justify-content-center">
+    <div class="col-md-4 mb-4">
+      <div class="polaroid">
+        <img src="/static/images/me_rafa_mirror.jpg" class="img-fluid rounded">
+        <div class="caption">My brother again because I love him</div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="polaroid">
+        <img src="/static/images/ut_friends.jpg" class="img-fluid rounded">
+        <div class="caption">My lovely, amazing, wonderful friends!</div>
+      </div>
+    </div>
+  </div>
+
+<div>
+{% endblock content %}
