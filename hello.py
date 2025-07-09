@@ -31,7 +31,7 @@ def third_page(username):
 @app.route("/update_server", methods=['POST'])
 def webhook():
     if request.method == 'POST':
-        repo = git.Repo('/home/week3flaskproject/flaskProject')
+        repo = git.Repo('/home/flaskproject3/flaskProject')
         origin = repo.remotes.origin
         origin.pull()
         return 'Updated PythonAnywhere successfully', 200
